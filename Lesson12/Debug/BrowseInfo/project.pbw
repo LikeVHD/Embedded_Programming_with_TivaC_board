@@ -77243,44 +77243,17 @@
     "scope": null
   },
   {
-    "ID": "c:@F@swap",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int * swap(int *, int *)",
+    "ID": "c:@S@Point",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "Point",
     "location": {
-      "column": "6",
+      "column": "8",
       "line": "9",
       "path": "C:\\Embedded Programming\\Lesson12\\main.c"
     },
-    "name": "swap",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@swap",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int * swap(int *, int *)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "C:\\Embedded Programming\\Lesson12\\main.c"
-    },
-    "name": "swap",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@219@F@swap@tmp",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tmp",
-    "location": {
-      "column": "16",
-      "line": "11",
-      "path": "C:\\Embedded Programming\\Lesson12\\main.c"
-    },
-    "name": "tmp",
+    "members": [],
+    "name": "Point",
     "origin": "project_file",
     "scope": null
   },
@@ -77291,52 +77264,10 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "19",
+      "line": "13",
       "path": "C:\\Embedded Programming\\Lesson12\\main.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@714@F@main@x",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "x",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Embedded Programming\\Lesson12\\main.c"
-    },
-    "name": "x",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@736@F@main@y",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "y",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Embedded Programming\\Lesson12\\main.c"
-    },
-    "name": "y",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@781@F@main@p",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "p",
-    "location": {
-      "column": "14",
-      "line": "32",
-      "path": "C:\\Embedded Programming\\Lesson12\\main.c"
-    },
-    "name": "p",
     "origin": "project_file",
     "scope": null
   },
