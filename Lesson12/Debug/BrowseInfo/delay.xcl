@@ -1,15 +1,15 @@
-"C:\Embedded Programming\Lesson11\delay.c"
+"C:\Embedded Programming\Lesson12\delay.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Embedded Programming\Lesson11\Debug\BrowseInfo\delay.pbi.dep
+C:\Embedded Programming\Lesson12\Debug\BrowseInfo\delay.pbi.dep
 -o
-C:\Embedded Programming\Lesson11\Debug\BrowseInfo\delay.pbi
+C:\Embedded Programming\Lesson12\Debug\BrowseInfo\delay.pbi
 -I
-C:\Embedded Programming\Lesson11
+C:\Embedded Programming\Lesson12
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc\c\aarch32
 -I

@@ -24,28 +24,28 @@ rule PDBLINK
 
 
 #Build steps
-build C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Embedded$ Programming\Lesson11\delay.c" -xcl_file "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.xcl" -macro_file "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
-  flags = "C$:\Embedded$ Programming\Lesson11\delay.c" -o "C$:\Embedded$ Programming\Lesson11\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.tmp"
-  rspfile_name = C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.xcl.rsp
+build C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Embedded$ Programming\Lesson12\delay.c" -xcl_file "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.xcl" -macro_file "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "C$:\Embedded$ Programming\Lesson12\delay.c" -o "C$:\Embedded$ Programming\Lesson12\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.tmp"
+  rspfile_name = C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.xcl.rsp
 
-build C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Embedded$ Programming\Lesson11\main.c" -xcl_file "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.xcl" -macro_file "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
-  flags = "C$:\Embedded$ Programming\Lesson11\main.c" -o "C$:\Embedded$ Programming\Lesson11\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.tmp"
-  rspfile_name = C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.xcl.rsp
+build C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Embedded$ Programming\Lesson12\main.c" -xcl_file "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.xcl" -macro_file "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "C$:\Embedded$ Programming\Lesson12\main.c" -o "C$:\Embedded$ Programming\Lesson12\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.tmp"
+  rspfile_name = C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.xcl.rsp
 
-build C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.pbi : INDEXER C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.xcl |  $
-C$:\Embedded$ Programming\Lesson11\delay.c
-  flags = "-out=C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.pbi" -f "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.xcl"
+build C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.pbi : INDEXER C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.xcl |  $
+C$:\Embedded$ Programming\Lesson12\delay.c
+  flags = "-out=C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.pbi" -f "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.xcl"
 
-build C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.pbi : INDEXER C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.xcl |  $
-C$:\Embedded$ Programming\Lesson11\main.c
-  flags = "-out=C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.pbi" -f "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.xcl"
+build C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.pbi : INDEXER C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.xcl |  $
+C$:\Embedded$ Programming\Lesson12\main.c
+  flags = "-out=C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.pbi" -f "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.xcl"
 
-build C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\project.pbw : MAKEBROWSE C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\project.pbd
-  flags = "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\project.pbd" -output "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\project.pbw"
+build C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\project.pbw : MAKEBROWSE C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\project.pbd
+  flags = "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\project.pbd" -output "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\project.pbw"
 
-build C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\project.pbd : PDBLINK C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.pbi |  $
-C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.pbi
-  flags = -M "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\project.pbd" "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\delay.pbi" "C$:\Embedded$ Programming\Lesson11\Debug\BrowseInfo\main.pbi"
+build C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\project.pbd : PDBLINK C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.pbi |  $
+C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.pbi
+  flags = -M "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\project.pbd" "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\delay.pbi" "C$:\Embedded$ Programming\Lesson12\Debug\BrowseInfo\main.pbi"
 
