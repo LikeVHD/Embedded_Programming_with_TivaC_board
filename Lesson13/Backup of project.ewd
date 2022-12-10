@@ -44,11 +44,11 @@
                 </option>
                 <option>
                     <name>MemFile</name>
-                    <state>$TOOLKIT_DIR$\CONFIG\debugger\TexasInstruments\TM4C123FH6PM.ddf</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>RunToEnable</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>RunToName</name>
@@ -88,7 +88,7 @@
                 </option>
                 <option>
                     <name>OCLastSavedByProductVersion</name>
-                    <state>9.30.1.50052</state>
+                    <state>9.10.2.39304</state>
                 </option>
                 <option>
                     <name>UseFlashLoader</name>
@@ -1292,7 +1292,7 @@
             <name>XDS100_ID</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>9</version>
+                <version>8</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1466,10 +1466,6 @@
                     <name>OCXDSDigitalStatesConfigFile</name>
                     <state>1</state>
                 </option>
-                <option>
-                    <name>OCSelectedCoreName</name>
-                    <state>1</state>
-                </option>
             </data>
         </settings>
         <debuggerPlugins>
@@ -1515,18 +1511,6 @@
             </plugin>
             <plugin>
                 <file>$TOOLKIT_DIR$\plugins\rtos\ThreadX\ThreadXArmPlugin.ENU.ewplugin</file>
-                <loadFlag>0</loadFlag>
-            </plugin>
-            <plugin>
-                <file>$TOOLKIT_DIR$\plugins\rtos\uCOS-II\uCOS-II-286-KA-CSpy.ewplugin</file>
-                <loadFlag>0</loadFlag>
-            </plugin>
-            <plugin>
-                <file>$TOOLKIT_DIR$\plugins\rtos\uCOS-II\uCOS-II-KA-CSpy.ewplugin</file>
-                <loadFlag>0</loadFlag>
-            </plugin>
-            <plugin>
-                <file>$TOOLKIT_DIR$\plugins\rtos\uCOS-III\uCOS-III-KA-CSpy.ewplugin</file>
                 <loadFlag>0</loadFlag>
             </plugin>
             <plugin>
